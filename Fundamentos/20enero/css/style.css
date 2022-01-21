@@ -1,0 +1,36 @@
+body{
+    background-color: #494949;
+    color: white;
+}
+
+div{
+    border: 5px solid tomato;
+
+    /*
+    padding-top: 10px
+    padding-right: 20px
+    padding-bottom: 30px
+    padding-left: 40px
+
+    padding: 10px 20px 30px 40px
+    */
+
+    padding: 20px;
+
+    /* 
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    margin: 30px 40px 20px 20px;
+    margin: 30px 20px;
+     */
+
+    margin: 30px
+}
+
+span{
+    border: 3px solid blueviolet;
+    
+}
