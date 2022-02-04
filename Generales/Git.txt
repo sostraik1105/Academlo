@@ -1,0 +1,9 @@
+add y commit a la vez
+	
+	$ git commit -am "comentario del commit"
+
+ver todos los codigos de los commit
+
+	$ git log --oneline
+
+

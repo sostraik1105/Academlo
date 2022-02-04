@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* VARIABLES */
+
+:root{
+    --fuente: 'Poppins', sans-serif;
+
+    --c-primario: hsl(159, 67%, 30%);
+    --c-primario-alt: #185c44;
+    --c-fuente: #413f40; 
+    --c-iconos: #ef9919;
+    --c-fondo-alt: #f9f5f2;
+
+    --title-fs: 2rem;
+    --subtitle-fs: 1.75rem;  
+}
+
+/* GENERALES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+@media screen and (min-width: 968px) {
+    :root{
+        --title-fs: 5rem;
+        --subtitle-fs: 3.125rem;
+    }
+}

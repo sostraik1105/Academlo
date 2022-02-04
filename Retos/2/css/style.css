@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: #e6e0bf;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+h1{
+    text-align: center;
+    margin: 2%;
+}
+
+.flex{display: flex;}
+
+.nav{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.nav__logo{
+    width: 70px;
+    position: relative;
+    left: 5%;
+}
+
+.nav__lista{
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__link{
+    font-weight: bold;
+    color: #000
+}
+
+.nav__link:hover{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.nosotros__img{
+    width: 60%;
+}
+
+.nosotros__text{
+    padding: 40px 50px;
+}

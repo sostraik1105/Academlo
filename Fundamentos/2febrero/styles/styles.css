@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root{
+    --main-color: #232435;
+    --font-color: #fff;
+    --accent-color: #f1a600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--main-color);
+    color: var(--font-color);
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .5rem 1.25rem;
+    background-color: transparent ;
+}
+
+nav>div img{
+    width: 1.5rem;
+}
+
+#menu-hamburguesa{
+    display: none;
+}
+
+#menu-hamburguesa~ul{
+    background-color: rgb(55, 71, 105);
+    width: 100%;
+    list-style: none;
+    height: calc(100vh - 36px);
+    position: absolute;
+    right: 100%;
+    transition: all .3s;
+}
+
+#menu-hamburguesa:checked ~ ul{
+    right: 0;
+}
+
+
+#about-section{
+    background-image: url(../assets/Vectores/Rectangle\ 34.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-section h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#about-section h1+p {
+    font-size: 18px;
+}
+
+#about-section p>span {
+    color:var(--accent-color);
+}
